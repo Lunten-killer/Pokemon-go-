@@ -1,0 +1,13 @@
+{
+  "domain": "pokemon_go",
+  "name": "Pokémon GO",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/your-name/pokemon-go-ha",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/your-name/pokemon-go-ha/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pokémon GO",
+        "description": "Events, Raids, Eier, Feldforschung und offizielle News in Home Assistant.",
+        "data": { "language": "Sprache der News" }
+      }
+    },
+    "abort": { "already_configured": "Pokémon GO ist bereits eingerichtet." }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Pokémon GO Optionen",
+        "data": {
+          "language": "Sprache der News",
+          "scan_interval": "Aktualisierungsintervall",
+          "excluded_types": "Event-Typen ausblenden"
+        },
+        "data_description": {
+          "excluded_types": "Diese Event-Typen erscheinen nicht im Kalender und in den Sensoren (z. B. go-battle-league)."
+        }
+      }
+    }
+  },
+  "entity": {
+    "calendar": { "events": { "name": "Events" } },
+    "sensor": {
+      "active_events": { "name": "Aktive Events" },
+      "next_event": { "name": "Nächstes Event" },
+      "next_community_day": { "name": "Nächster Community Day" },
+      "next_spotlight_hour": { "name": "Nächste Rampenlicht-Stunde" },
+      "next_raid_hour": { "name": "Nächste Raid-Stunde" },
+      "next_raid_day": { "name": "Nächster Raid-Tag" },
+      "next_max_battle": { "name": "Nächster Dyna-/Max-Kampf" },
+      "next_big_event": { "name": "Nächstes Großevent" },
+      "raid_bosses": { "name": "Raid-Bosse" },
+      "eggs": { "name": "Eier" },
+      "field_research": { "name": "Feldforschung" },
+      "latest_news": { "name": "Neueste News" }
+    }
+  }
+}

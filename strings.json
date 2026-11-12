@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pokémon GO",
+        "description": "Events, raids, eggs, field research and official news in Home Assistant.",
+        "data": { "language": "News language" }
+      }
+    },
+    "abort": { "already_configured": "Pokémon GO is already configured." }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Pokémon GO options",
+        "data": {
+          "language": "News language",
+          "scan_interval": "Update interval",
+          "excluded_types": "Hide event types"
+        },
+        "data_description": {
+          "excluded_types": "These event types are hidden from the calendar and sensors (e.g. go-battle-league)."
+        }
+      }
+    }
+  },
+  "entity": {
+    "calendar": { "events": { "name": "Events" } },
+    "sensor": {
+      "active_events": { "name": "Active events" },
+      "next_event": { "name": "Next event" },
+      "next_community_day": { "name": "Next Community Day" },
+      "next_spotlight_hour": { "name": "Next Spotlight Hour" },
+      "next_raid_hour": { "name": "Next Raid Hour" },
+      "next_raid_day": { "name": "Next Raid Day" },
+      "next_max_battle": { "name": "Next Max Battle" },
+      "next_big_event": { "name": "Next big event" },
+      "raid_bosses": { "name": "Raid bosses" },
+      "eggs": { "name": "Eggs" },
+      "field_research": { "name": "Field research" },
+      "latest_news": { "name": "Latest news" }
+    }
+  }
+}
