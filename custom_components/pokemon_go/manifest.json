@@ -4,10 +4,10 @@
   "codeowners": [],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/your-name/pokemon-go-ha",
+  "documentation": "https://github.com/Lunten-killer/Pokemon-go-",
   "integration_type": "service",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/your-name/pokemon-go-ha/issues",
+  "issue_tracker": "https://github.com/Lunten-killer/Pokemon-go-/issues",
   "requirements": [],
   "version": "1.0.0"
 }
